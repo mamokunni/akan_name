@@ -24,6 +24,7 @@ function getName() {
     }
     else if (male.checked === true) {
         alert("Hey, " + maleNames[dob] + " is your Akan name" + " since you were born on a " + Weekdays[dob]);
+        alert("Your Akan Name is "+ maleNames[dob] + "")
     } else {
         alert("Hey, " + femaleNames[dob] + " is your Akan name" +" since you were born on a " + Weekdays[dob]);
     }
