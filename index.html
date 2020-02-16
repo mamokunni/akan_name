@@ -55,35 +55,46 @@
           </div>
         </div>
 
-          <div class="link">
-            <a href="https://en.wikipedia.org/wiki/Ghanaian_name">Click here for more info</a>
-          </div>
+        <div class="link">
+          <a href="https://en.wikipedia.org/wiki/Ghanaian_name">Click here for more info</a>
+        </div>
 
         <hr>
 
         <div class="Akan">
+          <div class="row">
+            <div class="col-md-3">
           <div class="form-control">
             <form>
               <h3><strong><u>Know Your Akan Name.</u></strong></h3>
 
               <label for="YY">Year of Birth</label>
               <input type="number" id="YY" class="year" placeholder="YY " required>
-            <br>
+              <br>
               <label for="MM">Month:</label>
               <input type="number" id="MM" class="month" placeholder="MM" max="12" required>
-            <br>
+              <br>
               <label for="DD">Day:</label>
               <input type="number" id="DD" class="day" placeholder="DD" max="31" width="100%" required>
-            <br>
-              <input id="male" type="radio" name="gender" required>Male
+              <br>
+              <input id="male" class="radio" type="radio" name="gender" required>Male
               <input id="female" type="radio" name="gender" required>Female
-            <br>
-              <button type="button" onclick="getName()">submit</button>
-              <input type="reset" value="Reset">
+              <br>
+              <button class="button" type="button" onclick="getName()">submit</button>
+              <input class="button" type="reset" value="Reset">
             </form>
           </div>
         </div>
+        <div class="col-md-2">
 
+        </div>
+        <div class="col-md-5">
+          <img src="img/ghana.jpg" alt="" style="height:60%">
+
+        </div>
+      </div>
+
+      </div>
 
         <div id="yourName">
           <p id="display"></p>
