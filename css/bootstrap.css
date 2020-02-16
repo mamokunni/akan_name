@@ -60,6 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  
 
 }
 
@@ -1183,9 +1184,7 @@ pre code {
     max-width: 41.666667%;
   }
 
-  .col-md-5 .img{
-    width: 20px;
-  }
+
   .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
