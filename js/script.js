@@ -2,7 +2,7 @@ function getName() {
     var year = parseInt(document.getElementById("YY").value);
     var month =parseInt(document.getElementById("MM").value);
     var day = parseInt(document.getElementById("DD").value);
-    var date = new Date(`${year}-${month-1}-${day}`);
+    var date = new Date(`${year}-${month-1}-${day}`);//$-sign is used instead of document.getElement
     var date = new Date(year, month-1, day);
     var dob = date.getDay();
     var male = document.getElementById("male");
@@ -27,4 +27,7 @@ function getName() {
     } else {
         alert("You were born on "+ Weekdays[dob] +". Your Akan Name is "+ femaleNames[dob] + ".");
     }
+}
+function testbutton(){
+  
 }
